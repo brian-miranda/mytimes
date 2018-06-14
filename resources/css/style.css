@@ -1,5 +1,5 @@
 
-.head {
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -11,6 +11,8 @@
   position: fixed;
   width: 100%;
   height: 80px;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo {
@@ -34,4 +36,61 @@
 
 a {
   color: black;
+}
+
+main {
+  display: flex;
+  position: relative;
+  top: 90px;
+  border: 1px solid black;
+}
+
+.column.large {
+  border: 1px solid black;
+  width: 630px;
+  margin-right: 10px;
+}
+
+.column.medium {
+  border: 1px solid black;
+  width: 300px;
+  margin: 0 10px;
+}
+
+.column.small {
+  border: 1px solid black;
+  width: 240px;
+  margin: 0 10px;
+}
+
+.main-article {
+  border: 1px solid black;
+}
+
+.article {
+  border: 1px solid black;
+}
+
+.news-bites {
+  border: 1px solid black;
+}
+
+.story {
+  border: 1px solid black;
+}
+
+.mother {
+  border: 1px solid black;
+}
+
+.earth {
+  border: 1px solid black;
+}
+
+.cameras {
+  border: 1px solid black;
+}
+
+.cats {
+  border: 1px solid black;
 }
