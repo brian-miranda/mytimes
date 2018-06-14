@@ -3,16 +3,18 @@ header {
   font-size: 14px;
   font-weight: bold;
   border: 1px solid black;
+  position: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
   width: 100%;
   height: 80px;
   background-color: white;
   z-index: 1;
   margin: 0px auto;
+  top: 0;
+  left: 0;
 }
 
 .logo {
@@ -129,10 +131,15 @@ main {
 }
 
 .headline {
+  text-align: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .main-article .headline {
@@ -160,7 +167,7 @@ main {
 
 footer {
   position: relative;
-  height: 200px;
+  height: 300px;
   width: 100%;
   background-color: MediumAquamarine;
   margin: auto;
@@ -170,6 +177,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0px auto;
+  bottom: 0;
+  left: 0;
 }
 
 .bottom {
