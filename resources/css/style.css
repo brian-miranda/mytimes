@@ -1,4 +1,3 @@
-
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -13,6 +12,7 @@ header {
   height: 80px;
   background-color: white;
   z-index: 1;
+  margin: 0px auto;
 }
 
 .logo {
@@ -52,11 +52,17 @@ main {
 .column.large {
   border: 1px solid black;
   width: 630px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .column.medium {
   border: 1px solid black;
   width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .column.small {
@@ -64,12 +70,27 @@ main {
   width: 240px;
 }
 
+.secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
 .main-article {
   border: 1px solid black;
+  display: block;
 }
 
 .article {
   border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fbi {
+  height: 500px;
 }
 
 .news-bites {
@@ -94,6 +115,7 @@ main {
   display: flex;
   justify-content: center;
   height: 300px;
+  width: 300px;
 }
 
 .cameras {
@@ -102,6 +124,7 @@ main {
   display: flex;
   justify-content: center;
   height: 300px;
+  width: 300px;
 }
 
 .cats {
